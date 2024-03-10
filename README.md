@@ -9,6 +9,6 @@ Goal of the current version of this app is to do 2 things:
 - from the "combined table"( "CT" from this point fwd) it would be great to know the exact box count(we hold multiple different sized boxes for diffferent products) needed for the amount / type of orders to be shipped out (we can link box sizes to product sku or ASIN, one of many product identifiers on the AMZN Order report TSV file
 
  JS and CSS Files go in the same folder ( atleast thats how i was doing it, mine was named "static") 
- HTNL files go in a folder named "templates"
+ HTML files go in a folder named "templates"
  
  
