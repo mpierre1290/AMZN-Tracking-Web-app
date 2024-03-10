@@ -1,4 +1,4 @@
-# AMZN-Tracking-Web-ap
+# AMZN-Tracking-Web-app
 
 Goal of the current version of this app is to do 2 things: 
 
