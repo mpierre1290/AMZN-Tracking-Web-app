@@ -1,0 +1,192 @@
+body {
+    background-color: #2C2F33; /* Dark grey background */
+    color: #CCCCCC; /* Light grey text for contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 30px; /* Increased padding */
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 30px; /* Increased padding */
+    background-color: #23272A; /* Slightly lighter grey for the container */
+    border-radius: 12px; /* Adjusted for increased size */
+    box-shadow: 0 6px 12px rgba(0,0,0,.3);
+}
+
+.drop-area {
+    border: 3px dashed #7289DA; /* Increased border thickness */
+    padding: 30px; /* Increased padding */
+    text-align: center;
+    background-color: #2C2F33;
+    cursor: pointer;
+    margin-bottom: 30px; /* Increased margin */
+    position: relative;
+    overflow: hidden;
+    color: #FFFFFF; /* White text */
+    font-size: 24px; /* Increased font size */
+}
+
+.drop-area:hover {
+    background-color: #2C2F33;
+}
+
+.list-group-item {
+    margin-top: 15px; /* Adjusted margin */
+    border: 1.5px solid #444; /* Adjusted border thickness */
+    padding: 15px; /* Increased padding */
+    border-radius: 6px; /* Adjusted border-radius */
+    background-color: #2C2F33;
+    display: block;
+    transition: background-color 0.2s;
+    color: #DDD;
+    font-size: 18px; /* Increased font size */
+}
+
+.list-group-item:hover {
+    background-color: #23272A;
+}
+
+.btn {
+    background-color: #7289DA;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Increased padding */
+    font-size: 24px; /* Increased font size */
+    cursor: pointer;
+    border-radius: 6px; /* Adjusted border-radius */
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:hover {
+    background-color: #5B6EAE;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+        padding: 15px; /* Adjusted padding for smaller screens */
+    }
+    .drop-area {
+        margin-bottom: 15px; /* Adjusted margin for smaller screens */
+    }
+}
+
+.scrollable-table {
+    display: block;
+    width: 100%; /* Adjusted to ensure table scales within its container */
+    max-height: 400px; /* Adjust based on your layout needs */
+    overflow-y: auto; /* Allow only vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.table {
+    width: 90%; /* Ensure table fills its container */
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 1px; /* Adjust padding as needed */
+    border: 1px solid #777; /* Consistent with overall design */
+    text-align: center; /* Adjust text alignment as needed */
+}
+
+.table th {
+    background-color: #2C2F33; /* Header background */
+    color: #FFFFFF; /* Header text color */
+}
+
+.column-toggle-controls {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.column-toggle-controls label {
+    margin-right: 15px;
+    color: #CCCCCC;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.column-toggle-controls input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 95%; /* Adjust container to use maximum width */
+    margin: auto;
+    padding: 20px;
+    /* Other styles remain unchanged */
+}
+
+.scrollable-table {
+    overflow-x: auto; /* Add horizontal scrolling */
+    max-height: none; /* Remove max-height restriction if any */
+}
+
+.table {
+    width: 100%;
+    max-width: none; /* Ensure table can extend beyond the container's max-width */
+    border-collapse: collapse;
+    table-layout: auto; /* Allow table to automatically adjust column widths */
+}
+
+.table th, .table td {
+    border: 1px solid #777;
+    padding: 1px;
+    text-align: center;
+
+  
+}
+
+/* Ensure table headers and cells are visible and not cramped */
+.table th {
+    background-color: #2C2F33;
+    position: sticky;
+    top: 0;
+    z-index: 2; /* Keep headers above other content */
+
+}
+
+/* Ensuring table headers have a visible background and contrasting text color */
+.table th {
+    background-color: #2C2F33; /* Darker shade for header background */
+    color: white; /* White text color for contrast */
+    padding: 1px;
+    text-align: center;
+}
+
+/* Adjusting table data cells for visibility against a potentially light background */
+.table td {
+    color: #ffffff; /* Dark text color for better contrast against a white background */
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd; /* Optional: for styling */
+}
+
+.table td, .table th {
+    padding: 4px 8px; /* Reduced padding */
+    font-size: 16px; /* Default font size */
+    line-height: 1.2;
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    .table td, .table th {
+        font-size: 14px; /* Smaller font size for small devices */
+    }
+}
+
+
+.table a {
+    color: #ffffff; /* Change this to your preferred link color */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+.table a:hover {
+    color: #0056b3; /* Darker shade for hover effect */
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
