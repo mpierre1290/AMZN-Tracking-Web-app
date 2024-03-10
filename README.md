@@ -7,3 +7,8 @@ Goal of the current version of this app is to do 2 things:
 - Make an api request to UPS and / or USPS to track packages for either carrier. this api request would take the tracking numbers from the "combined table", and make a request to check the current tracking status. the current status of the tracking number would then be placed within another column in the "Combined table" the final version of the "combined table" is what would be used to track shipment status of orders sent out. aside from order tracking, there are some additional requests that the "Combined table" could help accomplish:
 
 - from the "combined table"( "CT" from this point fwd) it would be great to know the exact box count(we hold multiple different sized boxes for diffferent products) needed for the amount / type of orders to be shipped out (we can link box sizes to product sku or ASIN, one of many product identifiers on the AMZN Order report TSV file
+
+ JS and CSS Files go in the same folder ( atleast thats how i was doing it, mine was named "static") 
+ HTNL files go in a folder named "templates"
+ 
+ 
