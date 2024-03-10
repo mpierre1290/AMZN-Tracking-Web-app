@@ -10,5 +10,7 @@ Goal of the current version of this app is to do 2 things:
 
  JS and CSS Files go in the same folder ( atleast thats how i was doing it, mine was named "static") 
  HTML files go in a folder named "templates"
- 
+
+
+ oh and btw this code probably doesnt work as intended atm, saving proper revisions or using git to properly track changes was never done - and the result of this is the current state of the web app lol 
  
